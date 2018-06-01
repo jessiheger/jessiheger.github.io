@@ -11,59 +11,86 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Reem+Kufi" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Trochut:700" rel="stylesheet">
 		<link rel="stylesheet" href="main.css" type="text/css">
   	</head>
 	<body>
 		<nav id="sidenav">
 			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
 			<a href="#projects">Projects</a>
+			<a href="#skills">Skills</a>
 			<a href="#contact">Contact</a>
 			<a href="https://drive.google.com/uc?export=download&id=1a2omMlQ1ur6pK-0BxLAQSDM5cgaRgECC">Resume</a>
 		</nav>
-
-	<!-- 	<nav id="sidenav" class="navbar navbar-expand-lg navbar-light bg-light">
-  			<a class="navbar-brand" href="#">Navbar</a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    		<div class="navbar-nav">
-				    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				    <a class="nav-item nav-link" href="#">Features</a>
-				    <a class="nav-item nav-link" href="#">Pricing</a>
-				    <a class="nav-item nav-link" href="#">Disabled</a>
-	    		</div>
-  			</div>
-		</nav> -->
 		
 	<div class="container">
-			<div class="jumbotron">
-			    <div class="jumbotronText">
-				    <h1>JESSI HEGER</h1> 
-				    <h2>Full-Stack Web Developer</h2>
-<!-- 				    <p>I build things that make a difference.</p> 
- -->				</div>
-	  		</div>
+<!-- 	<div class="jumbotron">
+			<div class="jumbotronText"> -->
+				<div id="titleDiv"> 
+					<h1>JESSI HEGER</h1> 
+					<h2>Full-Stack Web Developer</h2>
+				</div> 
+			<!-- </div>
+	  	</div> -->
 
 		<!-- <div class="container"> -->
 			<div class="row">
-				<div class="col-8 offset-2" id="about">
-					<h2>About</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab fugiat consequuntur amet, quis suscipit aperiam dolore maxime nulla enim vitae doloribus delectus iste dolor similique atque quasi perferendis. Ducimus!</p>
+				<div class="col-sm-6 offset-sm-4" id="about">
+					<hr>
+					<p>I believe in the power of technology to affect change. As a developer, I am continually driven by the idea that I can contribute to something bigger than myself, and by the understanding that the code I write is for people - both the users and my team.</p>
 					<hr>
 				</div>
 			</div>
+			<div id="projects">
+				<div class="row">
+						<h2 class="indentLeft">Projects</h2>
+						<div class="col-6 flip-container" ontouchstart="this.classList.toggle('hover');" id="projectFlip1">
+							<div class="flipper">
+								<div class="front" id="pizzaFront">
+								</div>
+								<div class="back" id="pizzaBack">
+								</div>
+							</div>
+						</div>
+						<div class="col-6 projectDescRight projectText">
+							<br>
+							<br>
+							<hr>
+							<h2 class="projectTitle">Pizza Time!</h2>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<hr>
+						</div>
+						<br>
+						<br>
+				</div>
+					<div class="row">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');" id="projectFlip2">
+							<div class="flipper">
+								<div class="front" id="remindherFront">
+								</div>
+								<div class="back" id="remindherBack">
+								</div>
+							</div>
+						</div>
+						<div class="col-6 projectDescLeft projectText">
+							<br>
+							<br>
+							<hr>
+							<h2 class="projectTitle">remind(h)er</h2>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<p>TEST PROJECT DESCRIPTION</p>
+							<hr>
+						</div>
+					</div>
+				</div>
+
 			<div class="row">
 				<div id="skills" class="col-8 offset-2">
 					<h2>Skills</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab fugiat consequuntur amet, quis suscipit aperiam dolore maxime nulla enim vitae doloribus delectus iste dolor similique atque quasi perferendis. Ducimus!</p>
-					<hr>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-8 offset-2" id="projects">
-					<h2>Projects</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab fugiat consequuntur amet, quis suscipit aperiam dolore maxime nulla enim vitae doloribus delectus iste dolor similique atque quasi perferendis. Ducimus!</p>
 					<hr>
 				</div>
@@ -81,13 +108,14 @@
 				<div class="row" id="credits">
 					<h4>Credits</h4>
 					<p>code icon by Numero Uno from the Noun Project</p>
-					<p>green_leaves by<a href="http://www.taniaestevez.com/">Tania Estevez</a> and <a href="http://www.designlovefest.com/2017/04/dress-your-tech-186/#more-59828">Design Love Fest</a></p>
+					<!-- <p>green_leaves by<a href="http://www.taniaestevez.com/">Tania Estevez</a> and <a href="http://www.designlovefest.com/2017/04/dress-your-tech-186/#more-59828">Design Love Fest</a></p> -->
 				</div>
 			</div>
 		<footer>
 			<ul>
 				<li class="footerLi">Created by Jessi Heger 2018</li>
-				<a id="githublink" href="https://github.com/jessiheger"><li class="footerLi">Github</li></a>
+				<a id="githublink" href="https://github.com/jessiheger"><li class="footerLi"><img src="github.png">  Github</li></a>
+				<a id="linkedin" href="https://www.linkedin.com/in/jessicaheger/"><li class="footerLi"><img src="linkedin.png">  LinkedIn</li></a>
 			</ul>
 		</footer>
 	</div>
