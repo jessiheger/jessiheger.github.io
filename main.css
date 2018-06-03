@@ -1,51 +1,75 @@
 /*.jumbotron {
-	background-color: pink;
-	position: relative;
+    background-color: pink;
+    position: relative;
     width: 100%;
-	text-align: right;
-	background: linear-gradient(to left, #FFFFFF, #FFFFFF 1%, transparent), url('green_leaves.jpg');
+    text-align: right;
+    background: linear-gradient(to left, #FFFFFF, #FFFFFF 1%, transparent), url('green_leaves.jpg');
+    margin: 50px 0 50px 0;
 }
-.jumbotronText {
-    font-family: 'Trochut', cursive;
-    color: #69586C;
-}
-*/
 
-#titleDiv {
-    float: right;
-}
+.jumbotronText {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 130px;
+}*/
 
 h1 {
-    font-family: 'Trochut', cursive;
-    color: #F8F8F9;
-    font-size: 150px;
-    padding-top: 50px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 130px;
+    color: #2a2a2b;
 }
+
+#titleDiv {
+    margin: 100px 100px 100px 0px;
+    float: right;
+    background-color: #fff9ec;
+    /*width:100%;*/
+    padding: 40px;
+}
+#subtitle {
+    float: right;
+    /*padding-bottom: 50px;*/
+}
+
 
 body {
     font-family: "Lato", sans-serif;
-    /*letter-spacing: 10px;0px;*/
-    background-color: #404040;
+    /*letter-spacing: 10px;0px;
+    /*background-color: #404040;*/
+    background-color: #c1c0c4;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 .projectTitle {
-    font-family: 'Trochut', cursive;
+    /*font-family: 'Trochut', cursive;*/
+    font-family: 'Aclonica', sans-serif;
 
 }
 
 h2, h4 {
-	font-family: 'Julius Sans One', sans-serif;
-    color: #F8F8F9
+    font-family: 'Julius Sans One', sans-serif;
+    /*color: #F8F8F9*/
 }
 
 .indentLeft {
     margin-left: 100px;
 }
 
-p {
-    font-family: 'Nanum Myeongjo', serif;
+p, label, input, textarea {
+    /*font-family: 'Nanum Myeongjo', serif;*/
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 16px;
-    color: #F8F8F9
+    /*color: #F8F8F9*/
+}
+
+span {
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /*NAV BAR STYLING*/
@@ -56,17 +80,19 @@ p {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #B5BAC5;
-	opacity: 1;
+    background-color: #2a2a2b;
+    opacity: 1;
     transform-origin: left top;
-  	transform:rotate(-90deg) translateX(-100%);
+    transform:rotate(-90deg) translateX(-100%);
 }
 
 #sidenav a {
     padding: 40px 30px 10px 15px;
     text-decoration: none;
     font-size: 20px;
-    color: #69586C;
+    /*color: #69586C;*/
+    /*color: #333333;*/
+    color: #fff9ec;
     display: block;
     float: right;
     height: 100%;
@@ -76,18 +102,22 @@ p {
 }
 
 #sidenav a:hover {
-    color: #F8F8F9;
+    /*color: #F8F8F9;*/
+    color: #c1c0c4;
 }
 
-.main {
-    /*margin-left: 150px;  Same as the width of the sidenav */
+.projectDiv {
+    border:1px solid #B5BAC5;
+    margin-bottom:25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
-
 /*PROJECT SECTION FLIP COMPONENTS*/
 .flip-container {
     perspective: 1000px;
     display: inline-block;
     margin-left: 100px;
+
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -95,10 +125,11 @@ p {
 }
 
 .flip-container, .front, .back {
-    width: 600px;
-    height: 400px;
-    background-color: #B5BAC5;
+    width: 500px;
+    height: 300px;
     border-radius: 5px;
+    /*background-color: #B5BAC5;*/
+
 }
 
 /* flip speed goes here */
@@ -132,6 +163,7 @@ p {
 .projectDescRight {
     float: right;
     margin-right: 100px;
+    width:300px;
 }
 
 .projectDescLeft {
@@ -169,24 +201,47 @@ p {
 }
 
 /*Other section styling*/
+
+#openBracket, #openBracket h1{
+    display: inline;
+    float: left;
+    color:#fff9ec;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+
+}
+
+#closeBracket, #closeBracket h1 {
+    display: inline;
+    float: right;
+    color: #fff9ec;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
 #about {
     text-align: center;
+    margin: 100px 0px 0px 0px;
 }
 
 #projects {
-    background-color: #B5BAC5;
     color: #404040;
     padding-bottom: 20px;
 }
 
-#credits {
-    margin-bottom: 50px;
+#contact {
+    padding-bottom: 50px;
 }
+
 
 /*FOOTER STYLING*/
 footer {
-	/*background-color: #FFF3F2;*/
-	/*background-color: #BCE8DD;*/
     background-color: #F8F8F9;
 	position: fixed;
 	bottom: 0;
