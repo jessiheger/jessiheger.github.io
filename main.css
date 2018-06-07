@@ -18,16 +18,30 @@ h1 {
     color: #2a2a2b;
 }
 
-#titleDiv {
-    margin: 100px 100px 100px 0px;
-    float: right;
+.bracket {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 130px;
+    color: #fff9ec;
+}
+
+
+.full-width{
+    width: 100%;
     background-color: #fff9ec;
+}
+
+#titleDiv {
+/*    margin: 100px 100px 100px 0px;
+    float: right;
+    background-color: #fff9ec;*/
     /*width:100%;*/
-    padding: 40px;
+    /*padding: 40px;*/
+    text-align: center;
+
 }
 #subtitle {
-    float: right;
-    /*padding-bottom: 50px;*/
+    text-align: right;
+    padding-right: 25px;
 }
 
 
@@ -60,7 +74,7 @@ h2, h4 {
     margin-left: 100px;
 }
 
-p, label, input, textarea {
+p, label, input, textarea, span {
     /*font-family: 'Nanum Myeongjo', serif;*/
     font-family: 'Julius Sans One', sans-serif;
     font-size: 16px;
