@@ -12,9 +12,14 @@
     font-size: 130px;
 }*/
 
+.container {
+    padding-left: 40px;
+    /*margin-top: 10%;*/
+}
+
 h1 {
     font-family: 'Aclonica', sans-serif;
-    font-size: 130px;
+    font-size: 80px;
     color: #2a2a2b;
 }
 
@@ -36,6 +41,7 @@ h1 {
     background-color: #fff9ec;*/
     /*width:100%;*/
     /*padding: 40px;*/
+    padding-top: 150px;
     text-align: center;
 
 }
@@ -49,7 +55,7 @@ body {
     font-family: "Lato", sans-serif;
     /*letter-spacing: 10px;0px;
     /*background-color: #404040;*/
-    background-color: #c1c0c4;
+    /*background-color: #c1c0c4;*/
 }
 
 hr {
@@ -183,6 +189,7 @@ span {
 .projectDescLeft {
     float: left;
     margin-left: 100px;
+    width: 300px;
 }
 
 .projectText p {
@@ -251,6 +258,16 @@ span {
 
 #contact {
     padding-bottom: 50px;
+}
+
+.skills {
+    background-color: #fff9ec;
+    padding: 10px;
+}
+
+.skills li {
+    list-style-type: none;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 
