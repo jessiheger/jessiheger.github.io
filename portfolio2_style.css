@@ -1,0 +1,130 @@
+.initial-circle {
+  margin: 50px auto;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: solid black 1px;
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  /*margin: 0 auto 40px;*/
+  /*background-color: #fff9ec;*/
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Grand Hotel', cursive;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.numbers {
+  margin: 50px 18px;
+  /*text-align: center;*/
+  /*width: 600px;*/
+  display: inline-block;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.vl-small {
+    border-left: 1px solid black;
+    height: 40px;
+    margin: -50px 20px 0px 25px;
+    display: inline-block;
+}
+
+.nav-lines {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.vl-large {
+    border-left: 1px solid black;
+    height: 500px;
+    margin-left: 15px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+.nav-headers {
+  /*float: right;*/
+  /*bottom: 50px;*/
+  font-family: 'Poiret One', cursive;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.nav span {
+  margin: 0px 20px;
+  margin-bottom: -10px;
+  font-family: 'Grand Hotel', cursive;
+}
+
+.nav-section {
+    /*margin: -50px 20px 0px 0px;*/
+    /*padding-right: -20px;*/
+    display: inline-block;
+    transform-origin: left top;
+    transform:rotate(-90deg) translateX(-100%);
+    margin-right: -30px;
+    margin-left: 38px;
+}
+
+#title-div {
+  display: inline-block;
+  float: right;
+  margin-top: 10%;
+  margin-left: 30%;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  /*font-family: 'Nixie One', cursive;*/
+}
+
+#about {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+}
+
+p, li {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+
+}
+/*.name {
+  background-color: orange;
+  padding: 20px;
+}
+
+.sub-title {
+  background-color: pink;
+  z-index: 
+}
+*/
+
+.remindher {
+  display: inline-block;
+}
+
+.mockups {
+  width: 60%;
+  height: auto;
+  /*margin: 20px;*/
+}
+
+.project-desc {
+  width: 40%;
+  float: right;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+
+}
