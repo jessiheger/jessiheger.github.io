@@ -121,13 +121,13 @@ p, li {
 }
 
 .mockups {
-  width: 60%;
+  width: 100%;
   height: auto;
   /*margin: 20px;*/
 }
 
 .project-desc {
-  width: 40%;
+  width: 100%;
   float: right;
   font-family: 'Poiret One', cursive;
   font-size: 20px;
