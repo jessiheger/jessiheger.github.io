@@ -15,6 +15,10 @@
   font-family: 'Grand Hotel', cursive;
 }
 
+.initial-circle a {
+  color: black;
+}
+
 .logo {
   display: inline-block;
 }
@@ -56,11 +60,15 @@
 
 }
 
-.nav span {
+/*#nav {
+  position: fixed;
+}*/
+
+/*#nav span {
   margin: 0px 20px;
   margin-bottom: -10px;
   font-family: 'Grand Hotel', cursive;
-}
+}*/
 
 .nav-section {
     /*margin: -50px 20px 0px 0px;*/
@@ -91,29 +99,22 @@ h1 {
 
 h2 {
   font-family: 'Poiret One', cursive;
+  font-weight: bold;
   /*font-family: 'Nixie One', cursive;*/
 }
 
-#about {
+#about span {
   font-family: 'Poiret One', cursive;
   font-size: 24px;
 }
 
+#about h1, #projects h1, #skills h1, #contact h1 {
+  font-size: 4.5em;
+}
 p, li {
   font-family: 'Poiret One', cursive;
   font-size: 20px;
-
 }
-/*.name {
-  background-color: orange;
-  padding: 20px;
-}
-
-.sub-title {
-  background-color: pink;
-  z-index: 
-}
-*/
 
 .remindher {
   display: inline-block;
