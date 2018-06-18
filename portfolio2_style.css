@@ -1,18 +1,199 @@
-.initial-circle {
-  margin: 50px auto;
-  width: 55px;
-  height: 55px;
-  line-height: 50px;
-  border-radius: 50%;
-  border: solid black 1px;
-  text-align: center;
-  color: black;
-  font-size: 26px;
-  font-weight: 700;
-  /*margin: 0 auto 40px;*/
-  /*background-color: #fff9ec;*/
-  /*font-family: 'Sacramento', cursive;*/
-  font-family: 'Grand Hotel', cursive;
+
+/*SMALL SCREEN*/
+@media screen and (max-width: 650px) {
+
+  .initial-circle {
+    margin: 50px auto;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: solid black 1px;
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    /*margin: 0 auto 40px;*/
+    /*background-color: #fff9ec;*/
+    /*font-family: 'Sacramento', cursive;*/
+    font-family: 'Grand Hotel', cursive;
+    margin-left: 15px;
+  }
+
+  .vl-large {
+    border-left: 1px solid black;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: -40px;
+    display: inline-block;
+  }
+
+  .nav-headers {
+    font-size: 10px;
+    font-family: 'Poiret One', cursive;
+
+  }
+  .nav-section {
+    /*margin-right: -15px;*/
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  #projects h2 {
+    margin-left: 20px;
+
+  }
+
+  #about h1, #projects h1, #skills h1, #contact h1 {
+    font-size: 3em;
+  }
+
+  p, li, {
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+  }
+
+  #skills li, #contact p {
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+  }
+
+  #about span {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+  }
+
+  .project-desc {
+    width: 100%;
+    float: right;
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+  }
+
+  #title-div {
+    display: inline-block;
+    float: right;
+    margin-top: 10%;
+    margin-left: 20%;
+    position: absolute;
+  }
+}
+
+/*BIG SCREEN*/
+@media screen and (min-width: 651px) {
+
+  .initial-circle {
+    margin: 50px auto;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: solid black 1px;
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    /*margin: 0 auto 40px;*/
+    /*background-color: #fff9ec;*/
+    /*font-family: 'Sacramento', cursive;*/
+    font-family: 'Grand Hotel', cursive;
+  }
+
+  .vl-large {
+    border-left: 1px solid black;
+    height: 500px;
+    margin-left: 15px;
+    margin-top: -40px;
+    display: inline-block;
+  }
+
+  .nav-headers {
+    /*float: right;*/
+    /*bottom: 50px;*/
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .nav-section {
+      /*margin: -50px 20px 0px 0px;*/
+      /*padding-right: -20px;*/
+      display: inline-block;
+      transform-origin: left top;
+      transform:rotate(-90deg) translateX(-100%);
+      margin-right: -30px;
+      margin-left: 38px;
+  }
+
+  h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 80px;
+  }
+
+  h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    margin-left: 20px;
+
+  }
+
+  #about h1, #projects h1, #skills h1, #contact h1 {
+    font-size: 4.5em;
+  }
+
+  p, li {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+  }
+
+  #skills li {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+  }
+
+  #about span {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+  }
+
+  .project-desc {
+    width: 100%;
+    float: right;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+  }
+
+  #title-div {
+    display: inline-block;
+    float: right;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+}
+
+
+.nav-section a {
+  color:black;
+}
+
+.remindher {
+  display: inline-block;
+}
+
+.mockups {
+  width: 100%;
+  height: auto;
+  /*margin: 20px;*/
 }
 
 .initial-circle a {
@@ -41,96 +222,6 @@
 .nav-lines {
   text-align: right;
   margin-bottom: 20px;
-}
-
-.vl-large {
-    border-left: 1px solid black;
-    height: 500px;
-    margin-left: 15px;
-    margin-top: -40px;
-    display: inline-block;
-}
-
-.nav-headers {
-  /*float: right;*/
-  /*bottom: 50px;*/
-  font-family: 'Poiret One', cursive;
-  font-size: 16px;
-  font-weight: bold;
-
-}
-
-/*#nav {
-  position: fixed;
-}*/
-
-/*#nav span {
-  margin: 0px 20px;
-  margin-bottom: -10px;
-  font-family: 'Grand Hotel', cursive;
-}*/
-
-.nav-section {
-    /*margin: -50px 20px 0px 0px;*/
-    /*padding-right: -20px;*/
-    display: inline-block;
-    transform-origin: left top;
-    transform:rotate(-90deg) translateX(-100%);
-    margin-right: -30px;
-    margin-left: 38px;
-}
-
-.nav-section a {
-  color:black;
-}
-
-#title-div {
-  display: inline-block;
-  float: right;
-  margin-top: 10%;
-  margin-left: 30%;
-  position: absolute;
-}
-
-h1 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 80px;
-}
-
-h2 {
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
-  /*font-family: 'Nixie One', cursive;*/
-}
-
-#about span {
-  font-family: 'Poiret One', cursive;
-  font-size: 24px;
-}
-
-#about h1, #projects h1, #skills h1, #contact h1 {
-  font-size: 4.5em;
-}
-p, li {
-  font-family: 'Poiret One', cursive;
-  font-size: 20px;
-}
-
-.remindher {
-  display: inline-block;
-}
-
-.mockups {
-  width: 100%;
-  height: auto;
-  /*margin: 20px;*/
-}
-
-.project-desc {
-  width: 100%;
-  float: right;
-  font-family: 'Poiret One', cursive;
-  font-size: 20px;
 }
 
 .tracking-in-expand-fwd {
