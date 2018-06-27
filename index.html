@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jessi Heger</title>
         <link rel="icon" href="images/code.png">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Sacramento|Nixie+One|Poiret+One" rel="stylesheet">
           
         <link rel="stylesheet" href="portfolio2_style.css" type="text/css">
@@ -67,33 +67,30 @@
                             <a tabindex="0" role="button" data-toggle="modal" data-target="#remindherModal"><img class="mockups" src="images/remindher_single.jpeg"></a>
                         </div>
 
-            <!-- Modal -->
+                        <!-- Modal -->
                             <div class="modal fade" id="remindherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
+                              <div class="modal-dialog modal-lg" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">remind(h)er</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">&times;</span>
                                     </button>
                                   </div>
                                   <div class="modal-body">
-                                    TEST STUB
+                                    <div style="width:100%;height:0;padding-bottom:48%;position:relative;"><iframe src="https://giphy.com/embed/1YiIX0F3TMK6an3gmd" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
                                   </div>
-                                  <div class="modal-footer">
+                                  <!-- <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                  </div>
+                                  </div> -->
                                 </div>
                               </div>
                             </div>
-                            <!-- <div style="width:100%;height:0;padding-bottom:48%;position:relative;"><iframe src="https://giphy.com/embed/1YiIX0F3TMK6an3gmd" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
                         <div class="col-md-4 col-12">
                             <span class="project-desc">Using Node.js, Express, and MongoDB, this full-stack application facilitates women's knowledge of and access to reproductive health services.<br>
 
-            <!-- Button trigger modal -->
+                        <!-- Button trigger modal -->
                             <button id="pleasework" type="button" class="btn btn-primary" data-toggle="modal" data-target="#remindherModal">GIF</button>
-
                             |
                             <a href="https://remindher.herokuapp.com">Live Demo</a></span>
                         </div>
@@ -105,11 +102,32 @@
                     </div>
                     <div class="row">
                         <div class="col-md-8 col-12">
-                            <img class="mockups" src="images/popshop.jpeg">
-                            <!-- <div style="width:100%;height:0;padding-bottom:46%;position:relative;"><iframe src="https://giphy.com/embed/30pyg9klkYyXiGK6q7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+                            <a tabindex="0" role="button" data-toggle="modal" data-target="#popshopModal"><img class="mockups" src="images/popshop.jpeg"></a>
+                            
                         </div>
+
+                    <!-- Modal -->
+                            <div class="modal fade" id="popshopModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">PopShop</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div style="width:100%;height:0;padding-bottom:46%;position:relative;"><iframe src="https://giphy.com/embed/30pyg9klkYyXiGK6q7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
                         <div class="col-md-4 col-12">
                             <span class="project-desc">An e-commerce site built wtih Python, Django, and PostgreSQL Database, with the aim of featuring local businesses/vendors on a roatating basis; a virtual "pop up shop".<br>
+                            <button id="pleasework" type="button" class="btn btn-primary" data-toggle="modal" data-target="#popshopModal">GIF</button>
+                            |
                             <a href="#">Live Demo - coming soon!</a></span>
                         </div>
                     </div>
@@ -120,12 +138,31 @@
                     </div>
                     <div class="row">
                         <div class="col-md-8 col-12">
-                            <img class="mockups" src="images/pizzatime.jpeg">
-                            <!-- <div style="width:100%;height:0;padding-bottom:46%;position:relative;"><iframe src="https://giphy.com/embed/29pcgV6tmAh4l3gYKk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed mockups" allowFullScreen></iframe></div> -->
-                            <!-- <iframe src="https://giphy.com/embed/29pcgV6tmAh4l3gYKk"></iframe> -->
+                            <!-- <img class="mockups" src="images/pizzatime.jpeg"> -->
+                            <a tabindex="0" role="button" data-toggle="modal" data-target="#pizzatimeModal"><img class="mockups" src="images/pizzatime.jpeg"></a>
                         </div>
+
+                    <!-- Modal -->
+                            <div class="modal fade" id="pizzatimeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Pizza Time!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div style="width:100%;height:0;padding-bottom:46%;position:relative;"><iframe src="https://giphy.com/embed/1PgwscCoRbxzG9CiBc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
                         <div class="col-md-4 col-12">
                             <span class="project-desc">Multi-level front-end game built with HTML, CSS, JavaScript and Phaser.io.<br>
+                            <button id="pleasework" type="button" class="btn btn-primary" data-toggle="modal" data-target="#pizzatimeModal">GIF</button>
+                            |
                             <a href="https://jessiheger.github.io/project1_pizza"/>Live Demo</a></span>
                         </div>
                     </div>
@@ -187,9 +224,9 @@
                 </div>
             </div>
         <hr>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="index.js"></script>
 
 
     </body>
